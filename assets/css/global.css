@@ -1,0 +1,28 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-image: initial;
+}
+
+body {
+   background-image: url(/Pokedex-do-zero//assets/images/34c1e5d371d64a581b1902ec5c4509f4.png);
+   margin-left: 350px;
+   margin-right: 350px;
+   background-color: rgb(10, 6, 39);
+    
+}
+
+.content{
+    padding: 2rem;
+    background-image: url(/Pokedex-do-zero/assets/images/d8k1qap-00480a76-be5b-4e36-a5c3-01c9b547377e.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: auto;
+    background-attachment: fixed;
+}
+
+.logo {    
+    margin: 10px;
+    padding: 15px;    
+}

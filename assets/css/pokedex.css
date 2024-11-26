@@ -1,0 +1,287 @@
+
+.pokemons {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+    padding : 0;
+    margin: 0;
+}
+body{
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    height: 10px;   
+    margin-bottom: 80px;
+}
+
+.normal { 
+    background-color: #a6a877;}
+
+.grass  {
+    background-color: #77c850;}
+
+.fire {
+    background-color: #ee7f30;}
+
+.water {
+    background-color: #678fee;}
+
+.electric {
+    background-color: #f7cf2e;
+}
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+     background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:  1rem;
+    border-radius: 1rem;
+    background-position: center;
+    background-clip: border-box;
+
+}
+
+.name {
+    color: #fff;
+    margin-bottom: .25rem;
+    text-transform: capitalize;
+
+}
+.pokemon .detail img {
+    border-style: none;
+    max-width: 100%;
+    height: 70px;
+    align-self: flex-end;
+    
+}
+
+.pokemon .number {
+    color: black;
+    opacity: .6;
+    text-align: right;
+    font-size: .625rem;
+    
+}
+
+.pokemon .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.pokemon .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.type {
+    color: rgb(0, 0, 0);
+    padding: .25rem .5rem;
+    margin: .25rem 0rem;
+    font-size: .725rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-transform: capitalize;
+}
+
+.pagination {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button{    
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.pagination img {
+    max-width: 120px;
+    max-height: 80px;
+    border: 2px solid #333; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease;
+    
+}
+
+.pagination button:hover {
+    transform: scale(1.1);    
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.pokemonStats {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10rem;
+    opacity: 90%;
+    
+}
+
+.pokemonStats:hover{
+    transform: scale(1.1);    
+    color: #fff;
+    cursor: pointer;  
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    
+  }
+  
+  .modalContent {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-transform: capitalize;
+    font-size: 28px;    
+  }
+  
+  .modalContent img{     
+    align-self: center;
+    top: 10px;
+    right: 20px;
+    max-width: 150px;
+    max-height: 100px;
+
+  }
+  .modalContent .number {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    opacity: revert;
+
+  }
+
+  .modalContent .name{
+    font-size: 22px;
+    padding-bottom: 1rem;
+
+  }
+
+  .closeModal {
+    position: absolute;
+    align-self: center;
+    top: -30px;
+    left: 50%;
+    font-size: 30px;
+    width: 30px;   
+    cursor: pointer;
+    color: red;    
+    border-radius: 5px;
+
+  }
+  
+.abilities {
+    font-size: 12px;
+    list-style: none;
+    color: white;
+    padding: 0rem; 
+}
+
+.stats {
+    font-size: 12px;
+    list-style: none;
+    color: white;
+    padding: 0rem;
+
+}
+
+.statsName {
+    font-size: 12px;
+    list-style: none;
+    color: white;
+    padding: 0rem;
+
+}
+
+.tittle-abilities {
+    font-size: 12px;
+    color: white;
+    
+}
+
+.tittle-stats {
+    
+    font-size: 12px;
+    color: white;
+    
+}
+
+
